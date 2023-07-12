@@ -1,0 +1,166 @@
+body{
+     background-color: hsl(216, 12%, 8%);
+     min-height: 100vh;
+     display: grid;
+     place-items: center;
+     padding-left: 7px;
+    padding-right: 7px;
+}
+
+#main-card{
+    width: 85%;
+    background-color: hsl(213, 19%, 18%);
+    padding: 18px;
+    height: 42vh;
+    border-radius: 12px;
+    /* display: none; */
+}
+
+.star{
+    background-color: hsl(213deg 16.71% 14.84%);
+    width: 29px;
+    text-align: -webkit-center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 50%;
+}
+
+.star img{
+    width: 35%;
+}
+
+
+#main-card h1{
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+}
+
+#main-card p{
+    width: 100%;
+    font-size: 15px;
+    line-height: 18px;
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    
+}
+
+.num-card{
+    display: flex;
+    grid-gap: 18px;
+}
+
+.num-card button{
+    width: 25px;
+    height: 25px;
+    background-color:hsl(216deg 6.77% 26.55%);
+    text-align: center;
+    font-size: 12px;
+    /* padding-top: 7px; */
+    border-radius: circle;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.num-card button:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+#submit{
+    margin-top: 15px;
+    width: 100%;
+    height: 35px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 5000px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+
+#thanks-card{
+    display: none;
+    background: hsl(213, 19%, 18%);
+    text-align: center;
+    padding: 25px;
+    width: 85%;
+    background-color: hsl(213, 19%, 18%);
+    padding: 18px;
+    /* height: 42vh; */
+    border-radius: 12px;
+
+}
+
+#thanks-card img{
+    width: 60%;
+    cursor: pointer;
+}
+
+#info{
+    color: hsl(25, 97%, 53%);
+    height: 22px;
+    background-color: hsl(216deg 15.55% 27.26%);
+    padding-top: 7px;
+    width: 80%;
+    border-radius: 5000px;
+    margin-left: 24px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#thanks-card h1{
+    color: white;
+    font-size: 25px ;
+}
+
+#T-card {
+    font-size: 15px;
+    width: 95%;
+    color: white;
+}
+
+@media  screen and (min-width: 460px) and ( max-width: 2560px){
+    #main-card{
+        width: 38%;
+        
+       background-color: hsl(213, 19%, 18%);
+       padding: 18px;
+    /* height: 42vh; */
+       border-radius: 12px;
+
+    }
+
+    .num-card{
+        margin-left: 2px;
+        display: flex;
+        grid-gap: 23px;
+    }
+
+    .num-card button{
+        width: 35px;
+         height: 35px;
+    }
+
+    #thanks-card{
+        width: 38%;
+    }
+
+
+    #thanks-card img{
+        width: 40%;
+    }
+
+    #info{
+        width: 20vw;
+        margin-left: 9vw;
+        
+    }
+}
